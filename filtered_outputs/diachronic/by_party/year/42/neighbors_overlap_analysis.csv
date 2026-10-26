@@ -1,0 +1,209 @@
+term,year,jaccard_similarity,shared_neighbors_count,shared_terms
+fraud,2010,0.05263157894736842,1,investigation
+fraud,2011,0.0,0,
+fraud,2012,0.0,0,
+fraud,2013,0.05263157894736842,1,waste
+fraud,2014,0.1111111111111111,2,"abuse, waste"
+fraud,2015,0.05263157894736842,1,identity
+fraud,2016,0.0,0,
+fraud,2017,0.05263157894736842,1,voter
+fraud,2018,0.0,0,
+fraud,2019,0.05263157894736842,1,abuse
+fraud,2020,0.0,0,
+fraud,2021,0.0,0,
+fraud,2022,0.0,0,
+fraud,2023,0.0,0,
+fraud,2024,0.0,0,
+fraud,2025,0.17647058823529413,3,"unemployment, abuse, waste"
+integrity,2010,0.05263157894736842,1,disclose_act
+integrity,2012,0.0,0,
+integrity,2013,0.05263157894736842,1,elections
+integrity,2014,0.0,0,
+integrity,2015,0.0,0,
+integrity,2016,0.0,0,
+integrity,2017,0.05263157894736842,1,elections
+integrity,2018,0.05263157894736842,1,elections
+integrity,2019,0.05263157894736842,1,election
+integrity,2020,0.05263157894736842,1,elections
+integrity,2021,0.1111111111111111,2,"elections, election"
+integrity,2022,0.05263157894736842,1,elections
+integrity,2023,0.0,0,
+integrity,2024,0.05263157894736842,1,election
+integrity,2025,0.05263157894736842,1,election
+security,2010,0.1111111111111111,2,"social, homeland"
+security,2011,0.1111111111111111,2,"social, homeland"
+security,2012,0.1111111111111111,2,"social, homeland"
+security,2013,0.1111111111111111,2,"social, homeland"
+security,2014,0.1111111111111111,2,"social, homeland"
+security,2015,0.05263157894736842,1,homeland
+security,2016,0.05263157894736842,1,social
+security,2017,0.1111111111111111,2,"clearance, homeland"
+security,2018,0.05263157894736842,1,homeland
+security,2019,0.1111111111111111,2,"social, homeland"
+security,2020,0.1111111111111111,2,"social, homeland"
+security,2021,0.05263157894736842,1,homeland
+security,2022,0.1111111111111111,2,"social, homeland"
+security,2023,0.17647058823529413,3,"medicare, social, homeland"
+security,2024,0.0,0,
+security,2025,0.1111111111111111,2,"medicare, social"
+voter,2010,0.05263157894736842,1,registration
+voter,2011,0.05263157894736842,1,fraud
+voter,2012,0.25,4,"registration, laws, identification, verify"
+voter,2013,0.05263157894736842,1,registration
+voter,2014,0.05263157894736842,1,registration
+voter,2015,0.0,0,
+voter,2016,0.1111111111111111,2,"registration, turnout"
+voter,2017,0.1111111111111111,2,"registration, fraud"
+voter,2018,0.05263157894736842,1,registration
+voter,2019,0.17647058823529413,3,"automatic, registration, rolls"
+voter,2020,0.05263157894736842,1,registration
+voter,2021,0.05263157894736842,1,registration
+voter,2022,0.25,4,"elections, registration, registrations, suppression"
+voter,2023,0.05263157894736842,1,registration
+voter,2024,0.1111111111111111,2,"registration, rolls"
+voter,2025,0.05263157894736842,1,registration
+ballot,2010,0.05263157894736842,1,absentee
+ballot,2011,0.0,0,
+ballot,2012,0.05263157894736842,1,absentee
+ballot,2013,0.0,0,
+ballot,2015,0.05263157894736842,1,box
+ballot,2016,0.05263157894736842,1,voters
+ballot,2018,0.0,0,
+ballot,2019,0.0,0,
+ballot,2020,0.1111111111111111,2,"provisional, absentee"
+ballot,2021,0.05263157894736842,1,absentee
+ballot,2022,0.05263157894736842,1,box
+ballot,2023,0.17647058823529413,3,"ballots, box, voters"
+ballot,2024,0.05263157894736842,1,absentee
+ballot,2025,0.05263157894736842,1,box
+election,2010,0.0,0,
+election,2011,0.17647058823529413,3,"elections, eac, commission"
+election,2012,0.1111111111111111,2,"registration, polling_place"
+election,2013,0.05263157894736842,1,elections
+election,2014,0.0,0,
+election,2015,0.0,0,
+election,2016,0.05263157894736842,1,presidential
+election,2017,0.05263157894736842,1,interference
+election,2018,0.05263157894736842,1,interference
+election,2019,0.17647058823529413,3,"foreign_interference, interfere, interference"
+election,2020,0.05263157894736842,1,ballots
+election,2021,0.05263157894736842,1,presidential
+election,2022,0.05263157894736842,1,interference
+election,2023,0.05263157894736842,1,presidential
+election,2024,0.0,0,
+election,2025,0.1111111111111111,2,"presidential, integrity"
+certification,2010,0.0,0,
+certification,2011,0.0,0,
+certification,2012,0.0,0,
+certification,2013,0.05263157894736842,1,requirements
+certification,2014,0.0,0,
+certification,2015,0.0,0,
+certification,2016,0.0,0,
+certification,2017,0.0,0,
+certification,2018,0.0,0,
+certification,2019,0.0,0,
+certification,2020,0.0,0,
+certification,2021,0.0,0,
+certification,2022,0.0,0,
+certification,2023,0.0,0,
+certification,2024,0.0,0,
+certification,2025,0.0,0,
+audit,2018,0.0,0,
+audit,2021,0.0,0,
+audit,2022,0.05263157894736842,1,irs
+audit,2025,0.0,0,
+stolen,2012,0.0,0,
+stolen,2021,0.0,0,
+stolen,2022,0.0,0,
+stolen,2023,0.0,0,
+stolen,2024,0.0,0,
+stolen,2025,0.0,0,
+rigged,2017,0.0,0,
+rigged,2019,0.0,0,
+rigged,2021,0.0,0,
+rigged,2022,0.0,0,
+rigged,2024,0.0,0,
+rigged,2025,0.0,0,
+access,2010,0.0,0,
+access,2011,0.0,0,
+access,2012,0.0,0,
+access,2013,0.05263157894736842,1,quality
+access,2014,0.1111111111111111,2,"quality, care"
+access,2015,0.05263157894736842,1,affordable
+access,2016,0.05263157894736842,1,affordable
+access,2017,0.05263157894736842,1,affordable
+access,2018,0.0,0,
+access,2019,0.1111111111111111,2,"affordability, affordable"
+access,2020,0.0,0,
+access,2021,0.1111111111111111,2,"telehealth_services, telehealth"
+access,2022,0.1111111111111111,2,"telehealth, care"
+access,2023,0.0,0,
+access,2024,0.05263157894736842,1,expand
+access,2025,0.05263157894736842,1,care
+mail,2010,0.0,0,
+mail,2011,0.0,0,
+mail,2012,0.05263157894736842,1,absentee
+mail,2013,0.05263157894736842,1,attack
+mail,2014,0.05263157894736842,1,delivery
+mail,2015,0.0,0,
+mail,2016,0.0,0,
+mail,2017,0.0,0,
+mail,2018,0.0,0,
+mail,2019,0.0,0,
+mail,2020,0.0,0,
+mail,2021,0.1111111111111111,2,"ballots, absentee"
+mail,2022,0.0,0,
+mail,2023,0.0,0,
+mail,2024,0.0,0,
+mail,2025,0.0,0,
+illegal,2010,0.1111111111111111,2,"immigration, immigrants"
+illegal,2011,0.0,0,
+illegal,2012,0.1111111111111111,2,"immigration, immigrants"
+illegal,2014,0.0,0,
+illegal,2015,0.0,0,
+illegal,2016,0.0,0,
+illegal,2017,0.0,0,
+illegal,2018,0.0,0,
+illegal,2019,0.0,0,
+illegal,2020,0.0,0,
+illegal,2021,0.0,0,
+illegal,2022,0.0,0,
+illegal,2023,0.0,0,
+illegal,2024,0.0,0,
+illegal,2025,0.0,0,
+legitimate,2019,0.0,0,
+legitimate,2020,0.0,0,
+legitimate,2021,0.0,0,
+legitimate,2022,0.0,0,
+legitimate,2023,0.0,0,
+legitimate,2024,0.0,0,
+trust,2010,0.1111111111111111,2,"fund, elected_officials"
+trust,2012,0.0,0,
+trust,2013,0.0,0,
+trust,2014,0.1111111111111111,2,"highway, fund"
+trust,2015,0.1111111111111111,2,"highway, fund"
+trust,2016,0.0,0,
+trust,2017,0.0,0,
+trust,2018,0.0,0,
+trust,2019,0.0,0,
+trust,2020,0.05263157894736842,1,restore
+trust,2021,0.0,0,
+trust,2022,0.0,0,
+trust,2023,0.0,0,
+trust,2024,0.05263157894736842,1,public
+trust,2025,0.0,0,
+transparency,2010,0.05263157894736842,1,accountability
+transparency,2012,0.1111111111111111,2,"accountability, cosponsored"
+transparency,2013,0.05263157894736842,1,accountability
+transparency,2014,0.05263157894736842,1,accountability
+transparency,2015,0.05263157894736842,1,accountability
+transparency,2016,0.05263157894736842,1,act
+transparency,2017,0.05263157894736842,1,accountability
+transparency,2018,0.0,0,
+transparency,2019,0.05263157894736842,1,accountability
+transparency,2020,0.05263157894736842,1,accountability
+transparency,2021,0.05263157894736842,1,accountability
+transparency,2022,0.0,0,
+transparency,2023,0.05263157894736842,1,accountability
+transparency,2024,0.05263157894736842,1,accountability
+transparency,2025,0.05263157894736842,1,accountability

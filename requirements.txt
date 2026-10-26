@@ -1,0 +1,25 @@
+# Election Integrity pipeline — Python deps for the `ei` Miniforge env.
+# Install:  pip install -r requirements.txt
+#
+# Core scientific stack is PINNED to the versions the analysis was developed on
+# (numpy 1.x / pandas 2.2). Unpinned installs pulled bleeding-edge numpy 2.4 /
+# pandas 3.0, which change pandas defaults (copy-on-write, PyArrow strings,
+# groupby.apply semantics) and risk silent behavior drift between the VACC run
+# and the local notebook / step-3 scripts.
+numpy<2
+pandas>=2.0,<2.3
+scipy<1.14
+gensim>=4.3,<4.4
+scikit-learn<1.6
+
+# Embedding + NLP (let these float; they resolve fine against numpy<2)
+sentence-transformers
+torch
+nltk
+
+# Plotting / IO / utils
+matplotlib
+seaborn
+tqdm
+openpyxl
+requests
